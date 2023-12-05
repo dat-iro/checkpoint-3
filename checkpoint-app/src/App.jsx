@@ -1,11 +1,11 @@
 import './App.css'
+import { Pokedex } from './Pokedex'
 
 export function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div>
-      
+      <Pokedex />
     </div>
   )
 }
